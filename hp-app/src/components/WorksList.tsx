@@ -9,6 +9,7 @@ export type WorkEntry = {
     link?: string,
     year: number,
 };
+/** Styling for each work entry item's modal. */
 const modalStyle = {
     position: 'absolute' as 'absolute',
     top: '50%',
@@ -22,28 +23,31 @@ const modalStyle = {
     p: 4,
   };
 
+/** Component for each work entry. 
+ * key prop is necessary!
+*/
 function WorkEntryItem(props: { key: React.Key, workEntry: WorkEntry}){
-    const item = props.workEntry;
+    const work = props.workEntry;
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     return (
         <ImageListItem>
-        <img
-            src={`${item.thumbnail}`}
-            srcSet={`${item.thumbnail}`}
-            alt={item.title}
-            loading="lazy"
-        />
+            <img
+                src={`${work.thumbnail}`}
+                srcSet={`${work.thumbnail}`}
+                alt={work.title}
+                loading="lazy"
+            />
         <ImageListItemBar
-            title={item.title}
-            subtitle={item.subtitle}
+            title={work.title}
+            subtitle={work.subtitle}
             actionIcon={
             <Button 
                 variant="contained"
                 sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
                 onClick={handleOpen}
-                aria-label={`info about ${item.title}`}>
+                aria-label={`info about ${work.title}`}>
                 Info
             </Button>
             }
@@ -56,10 +60,10 @@ function WorkEntryItem(props: { key: React.Key, workEntry: WorkEntry}){
         >
             <Box sx={modalStyle}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
-                {item.title}
+                {work.title}
             </Typography>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                {item.descBody}
+                {work.descBody}
             </Typography>
             </Box>
         </Modal>
@@ -67,6 +71,7 @@ function WorkEntryItem(props: { key: React.Key, workEntry: WorkEntry}){
     )
 }
 
+/** The component that renders the "image gallery" in the Works page. */
 export default function WorksList(props: {
     cols?: number,
     itemData: WorkEntry[]}){

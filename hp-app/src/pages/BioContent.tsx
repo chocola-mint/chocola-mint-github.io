@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 type SupportedLangs = "en";
+/** A lazy solution for per-language HTML. */
 export default function BioContent(lang?: SupportedLangs){
     switch(lang)
     {

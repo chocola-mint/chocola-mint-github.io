@@ -2,7 +2,7 @@ import { Box } from '@mui/system';
 import React from 'react';
 import Typography from '@mui/material/Typography';
 
-
+/** The component that renders the hero section of the homepage. */
 export default function Header(props : {
   logo: string
 }) {

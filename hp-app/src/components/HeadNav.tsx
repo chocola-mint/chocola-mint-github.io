@@ -23,6 +23,7 @@ function useRouteMatch(patterns: readonly string[]) {
   return null;
 }
 
+/** The component that renders the sticky navbar on the homepage. */
 export default function HeadNav() {
   const [, setValue] = React.useState(0);
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
