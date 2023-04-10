@@ -1,0 +1,13 @@
+import{S as x,i as B,s as P,k as f,y as b,l as c,m as w,z as I,h as i,b as m,A as v,g as C,d as k,B as R,q as u,r as g,n as d,O as j,a1 as A}from"../chunks/index.2ddac10f.js";import{P as S}from"../chunks/Paper.4c8fd0f9.js";import{C as T}from"../chunks/Subtitle.09e182e2.js";function D(p){let n,t,a,r,o,l,h,$,y,_;return{c(){n=u(`I'm a game designer & programmer who's mostly known for participating in a lot of game jams and getting awards in some of them.\r
+            Most of my games are fangames of Team Shanghai Alice's Touhou Project. You can check them out on my \r
+            `),t=f("a"),a=u("Itch"),r=u(` page.\r
+            `),o=f("br"),l=f("br"),h=u(`\r
+            I'm also a generalist who's trying to branch into other creative fields. Recently studying 3DCG in particular.\r
+            `),$=f("br"),y=f("br"),_=u(`\r
+            Currently, my game engine of choice is the Unity game engine, though I'm always open to trying other options.`),this.h()},l(e){n=g(e,`I'm a game designer & programmer who's mostly known for participating in a lot of game jams and getting awards in some of them.\r
+            Most of my games are fangames of Team Shanghai Alice's Touhou Project. You can check them out on my \r
+            `),t=c(e,"A",{href:!0,target:!0,rel:!0});var s=w(t);a=g(s,"Itch"),s.forEach(i),r=g(e,` page.\r
+            `),o=c(e,"BR",{}),l=c(e,"BR",{}),h=g(e,`\r
+            I'm also a generalist who's trying to branch into other creative fields. Recently studying 3DCG in particular.\r
+            `),$=c(e,"BR",{}),y=c(e,"BR",{}),_=g(e,`\r
+            Currently, my game engine of choice is the Unity game engine, though I'm always open to trying other options.`),this.h()},h(){d(t,"href","https://chocola-mint.itch.io"),d(t,"target","_blank"),d(t,"rel","noopener noreferrer")},m(e,s){m(e,n,s),m(e,t,s),j(t,a),m(e,r,s),m(e,o,s),m(e,l,s),m(e,h,s),m(e,$,s),m(e,y,s),m(e,_,s)},p:A,d(e){e&&i(n),e&&i(t),e&&i(r),e&&i(o),e&&i(l),e&&i(h),e&&i($),e&&i(y),e&&i(_)}}}function q(p){let n,t;return n=new T({props:{$$slots:{default:[D]},$$scope:{ctx:p}}}),{c(){b(n.$$.fragment)},l(a){I(n.$$.fragment,a)},m(a,r){v(n,a,r),t=!0},p(a,r){const o={};r&1&&(o.$$scope={dirty:r,ctx:a}),n.$set(o)},i(a){t||(C(n.$$.fragment,a),t=!0)},o(a){k(n.$$.fragment,a),t=!1},d(a){R(n,a)}}}function E(p){let n,t,a;return t=new S({props:{$$slots:{default:[q]},$$scope:{ctx:p}}}),{c(){n=f("div"),b(t.$$.fragment)},l(r){n=c(r,"DIV",{});var o=w(n);I(t.$$.fragment,o),o.forEach(i)},m(r,o){m(r,n,o),v(t,n,null),a=!0},p(r,[o]){const l={};o&1&&(l.$$scope={dirty:o,ctx:r}),t.$set(l)},i(r){a||(C(t.$$.fragment,r),a=!0)},o(r){k(t.$$.fragment,r),a=!1},d(r){r&&i(n),R(t)}}}class Y extends x{constructor(n){super(),B(this,n,null,E,P,{})}}export{Y as default};
