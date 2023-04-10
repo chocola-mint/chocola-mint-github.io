@@ -34,19 +34,22 @@
     import TabBar from '@smui/tab-bar';
     import { page } from '$app/stores';
     import Tooltip, {Wrapper} from '@smui/tooltip';
-	import { afterNavigate, beforeNavigate, goto } from '$app/navigation';
 	import { onMount } from "svelte";
     
     export let pages : NavOptions;
-    
     const pageKeys = Object.keys(pages);
     const currentTabList = pageKeys.filter(x => pages[x].route === $page.params.slug);
-    let active = currentTabList.length <= 0 ? pageKeys[0] : currentTabList[0];
+    $: active = currentTabList.length <= 0 ? pageKeys[0] : currentTabList[0];
 
-    // onMount(() => {
-    //     const pageKeys = Object.keys(pages);
-    //     const currentTabList = pageKeys.filter(x => pages[x].route === $page.params.slug);
-    //     active = currentTabList.length <= 0 ? pageKeys[0] : currentTabList[0];
+    onMount(() => {
+    
+        const pageKeys = Object.keys(pages);
+        const slugs = window.location.href.match(/[^\/]+/g);
+        if(slugs && slugs.length > 2)
+        {
+            const currentTabList = pageKeys.filter(x => pages[x].route === "/" + slugs![2]);
+            active = currentTabList.length <= 0 ? pageKeys[0] : currentTabList[0];
+        }
 
-    // });
+    });
 </script>

@@ -6,7 +6,7 @@ export const en_US : TLTable = {
             tooltip: "This is where I put all of my games."
         },
         twitter: {
-            tooltip: "I post here sometimes."
+            tooltip: "I post here sometimes. (JP)"
         },
         youtube: {
             tooltip: "I post gameplay trailers of my games here."
