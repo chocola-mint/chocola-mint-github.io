@@ -55,6 +55,7 @@
     }
     .content{
         max-width: 50em;
+        width: 80vw;
         position: relative;
         top: 5vh;
         margin-left: 1em;
