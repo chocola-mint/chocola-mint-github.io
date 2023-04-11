@@ -1,11 +1,31 @@
-<script>
+<style>
+    .list{
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        width: 100%;
+    }
+</style>
 
-	import Paper, { Content, Title } from "@smui/paper";
+<div class="list">
+    <WorkItem 
+    src="https://placehold.co/200x200/png" 
+    alt="Placeholder"
+    title="Some game">Test</WorkItem>
+    <WorkItem 
+    src="https://placehold.co/600x600/png" 
+    alt="Placeholder"
+    title="Some game">Test</WorkItem>
+    <WorkItem 
+    src="https://placehold.co/200x200/png" 
+    alt="Placeholder"
+    title="Some game">Test</WorkItem>
+
+</div>
+<script>
+	import WorkItem from "$lib/components/WorkItem.svelte";
+    import Paper, { Content, Title } from "@smui/paper";
 
 </script>
-<Paper>
-    <Title>Under Construction...</Title>
-    <Content>If you're in a hurry, check out my 
-        <a href="https://chocola-mint.itch.io"  target="_blank" rel="noopener noreferrer">Itch</a> 
-        page instead for an overview.</Content>
-</Paper>
