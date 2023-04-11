@@ -9,6 +9,7 @@ Note: The [blog](https://chocola-mint.github.io/blog/) is hosted in a [separate 
 * [Svelte Material UI](https://sveltematerialui.com/)
 
 ## Development
+* Setup node modules (must-do upon clone): `npm install`
 * Refresh SCSS after new component imports: `npm run prepare`
 * Localhost testing: `npm run dev`
 
