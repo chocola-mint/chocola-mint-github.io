@@ -1,0 +1,1 @@
+import{a as s}from"./classAdderBuilder.b4ee73ff.js";const a=s({class:"smui-paper__content",tag:"div"}),e=s({class:"smui-paper__title",tag:"h5"}),i=s({class:"smui-paper__subtitle",tag:"h6"});export{a as C,i as S,e as T};
