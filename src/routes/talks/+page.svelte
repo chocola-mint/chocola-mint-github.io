@@ -21,7 +21,7 @@
 <Paper>
     <Title>A PROGRAMMER tried to use Visual Scripting!</Title>
     <Content>
-        📅 Date: 4/16/2023
+        📅 Date: 4/15/2023
         <br>
         🌏 Location: unity1week online 共有会 #11 (YouTube Live / Zoom)
         <br>
