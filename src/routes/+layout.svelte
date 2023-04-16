@@ -129,6 +129,8 @@
     <footer>
         <div style="position:relative;top:2em;text-align:center;">
             ChocolaMint・2023
+            <br>
+            <OpenInNewTab href="https://github.com/chocola-mint/chocola-mint.github.io" style="color:rgb(116, 155, 155)">Source Code</OpenInNewTab>
         </div>
     </footer>
 </div>
@@ -146,5 +148,6 @@
     import banner from '$lib/assets/banner.png';
     import { GetTL } from './TL';
 	import { locale } from '$lib/stores/localization';
+	import OpenInNewTab from '$lib/components/OpenInNewTab.svelte';
     let TL = GetTL($locale);
 </script>
