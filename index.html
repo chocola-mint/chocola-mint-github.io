@@ -7,12 +7,14 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 		<meta charset="utf-8" />
 		<title>ChocolaMint | Game Developer</title>
 		<link rel="icon" href="./favicon.png" /><!-- SMUI Styles -->
-		<link rel="stylesheet" href="/smui.css" media="(prefers-color-scheme: light)" />
+		<link rel="stylesheet" href="/smui.css">
+		<!-- Disable dark mode support. It's not worth it. -->
+		<!-- <link rel="stylesheet" href="/smui.css" media="(prefers-color-scheme: light)" />
 		<link
 		  rel="stylesheet"
 		  href="/smui-dark.css"
 		  media="screen and (prefers-color-scheme: dark)"
-		/>
+		/> -->
 		<!-- Material Icons -->
 		<link
 		rel="stylesheet"
@@ -31,15 +33,15 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/_layout.d67938c2.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.c47e24fa.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.0461779d.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.7fd190dc.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.17c6b686.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.b94f7893.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.698add3b.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.16a8fd22.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.47c2e7f9.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.d5122902.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.12bc1e6c.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/classAdderBuilder.b4ee73ff.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/animationframe.52d10f2f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.e6a10229.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.509f91b4.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.984db11e.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.2b00b998.js">
@@ -127,7 +129,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 			
 			<script>
 				{
-					__sveltekit_1gna81c = {
+					__sveltekit_1j66uvs = {
 						env: {},
 						base: new URL(".", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
@@ -136,10 +138,10 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.c47e24fa.js"),
-						import("./_app/immutable/entry/app.16a8fd22.js")
+						import("./_app/immutable/entry/start.0461779d.js"),
+						import("./_app/immutable/entry/app.d5122902.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1gna81c.element, {
+						kit.start(app, __sveltekit_1j66uvs.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
