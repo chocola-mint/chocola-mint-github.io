@@ -63,7 +63,7 @@
     }
     footer {
         margin-top:5em;
-        height: 20vh;
+        min-height: 20vh;
         width: 100%;
         
         background-color:darkslategray;
@@ -107,9 +107,7 @@
             icon={iconPixiv} 
             name="Pixiv" 
             href="https://www.pixiv.net/users/35917669" 
-            tooltip={TL.socials.pixiv.tooltip}/>
-            
-            
+            tooltip={TL.socials.pixiv.tooltip}/>            
         </div>
         <br>
     </header>
@@ -119,7 +117,7 @@
             about: { label: `${TL.pages.aboutMe.label}`, route: "/", tooltip: `${TL.pages.aboutMe.tooltip}` },
             works: { label: `${TL.pages.works.label}`, route: "/works", tooltip: `${TL.pages.works.tooltip}` },
             talks: { label: `${TL.pages.talks.label}`, route: "/talks", tooltip: `${TL.pages.talks.tooltip}` },
-            contacts: { label: `${TL.pages.contacts.label}`, route: "/contacts", tooltip: `${TL.pages.contacts.tooltip }` },
+            contact: { label: `${TL.pages.contact.label}`, route: "/contact", tooltip: `${TL.pages.contact.tooltip }` },
         }}/>
         <div class="content">
             <slot></slot>

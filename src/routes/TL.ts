@@ -20,7 +20,7 @@ export default interface TLTable {
       aboutMe: Page;
       works: Page;
       talks: Page;
-      contacts: Page;
+      contact: Page;
     };
 }
 interface Social {

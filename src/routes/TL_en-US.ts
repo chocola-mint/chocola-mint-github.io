@@ -16,7 +16,7 @@ export const en_US : TLTable = {
         },
         pixiv: {
             tooltip: "This is where I upload my drawings."
-        },
+        }
     },
     pages: {
         aboutMe: {
@@ -31,8 +31,8 @@ export const en_US : TLTable = {
             label: "Talks", 
             tooltip: "An archive for my past talks." 
         },
-        contacts: { 
-            label: "Contacts", 
+        contact: { 
+            label: "Contact", 
             tooltip: "How to get in touch with me." 
         }
     }
