@@ -12,6 +12,13 @@
     }
 </style>
 
+
+<Paper>
+    <Content>
+        For a full list, check out my <OpenInNewTab href="https://chocola-mint.itch.io">Itch</OpenInNewTab> page.
+    </Content>
+</Paper>
+<br>
 <div class="list">
     <WorkItem 
     src="https://img.itch.zone/aW1nLzExMTc0Nzk2LnBuZw==/315x250%23c/MdUvSy.png"
