@@ -11,6 +11,7 @@
         {tab}
         href={pages[tab].route}
         style={`max-width:${100 / Object.keys(pages).length}vw`}
+        data-sveltekit-preload-data
         >
             <Label><div class="label">{pages[tab].label}</div></Label>
         </Tab>
