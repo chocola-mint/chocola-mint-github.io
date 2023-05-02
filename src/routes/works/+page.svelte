@@ -28,7 +28,7 @@
     src={thumbnailSortingBattle} 
     title="Sorting Battle (2022 Fall)"
     projectPage="https://chocola-mint.itch.io/sorting-battle">
-    Final project for an introductory Machine Learning course.
+    Final project for an undergraduate-level Machine Learning course.
     <br><br>
     This project is special in that it uses Unity's low-level Barracuda API to run an ONNX model trained using an external Python environment.
     The Python environment is built in a way that meets the same specs as the Unity application. To this end, unit testing is used extensively.
@@ -68,7 +68,7 @@
     src="https://img.itch.zone/aW1nLzc5MzU3NzkucG5n/315x250%23c/yEQqln.png" 
     title="Lucid Dive (2021 Fall)"
     projectPage="https://chocola-mint.itch.io/lucid-dive">
-    The final project for a Game Programming course. I headed the design and programming of this project.
+    The final project for a graduate-level Game Programming course. I headed the design and programming of this project.
     <br><br>
     The game was submitted to a local competition called the Innovation Game Design competition, 
     and came in 2nd for best graphics and 1st for best sound design.
