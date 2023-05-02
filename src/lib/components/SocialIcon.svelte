@@ -23,7 +23,11 @@
     <a href={href} target="_blank" rel="noopener noreferrer">
         <Wrapper>
             <img src={icon} alt={name}>
-            <Tooltip hideDelay={0.25} showDelay={0.5} persistent={false}>{tooltip}</Tooltip>
+            <MediaQuery query='(min-width:480px)' let:matches>
+                {#if matches}
+                    <Tooltip hideDelay={0.25} showDelay={0.5} persistent={false}>{tooltip}</Tooltip>
+                {/if}
+            </MediaQuery>
         </Wrapper>
     </a>
 </div>
@@ -33,4 +37,5 @@
     export let name : string;
     export let tooltip : string;
     import Tooltip, { Wrapper } from '@smui/tooltip';
+    import MediaQuery from 'svelte-media-queries';
 </script>

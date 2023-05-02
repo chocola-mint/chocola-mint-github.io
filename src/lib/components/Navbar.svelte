@@ -12,9 +12,13 @@
         href={pages[tab].route}
         style={`max-width:${100 / Object.keys(pages).length}vw`}
         >
-        <Label><div class="label">{pages[tab].label}</div></Label>
+            <Label><div class="label">{pages[tab].label}</div></Label>
         </Tab>
-        <Tooltip showDelay={0.5} hideDelay={0.5} persistent={false}>{pages[tab].tooltip}</Tooltip>
+        <MediaQuery query='(min-width:480px)' let:matches>
+            {#if matches}
+                <Tooltip showDelay={0.5} hideDelay={0.5} persistent={false}>{pages[tab].tooltip}</Tooltip>
+            {/if}
+        </MediaQuery>
     </Wrapper>
 </TabBar>
 <script lang="ts" context="module">
@@ -35,6 +39,7 @@
     import { page } from '$app/stores';
     import Tooltip, {Wrapper} from '@smui/tooltip';
 	import { onMount } from "svelte";
+    import MediaQuery from 'svelte-media-queries';
     
     export let pages : NavOptions;
     const pageKeys = Object.keys(pages);
