@@ -74,6 +74,12 @@
 </style>
 
 
+<svelte:head>
+    {#each preloadImages as image}
+        <link rel="preload" as="image" href={image}/>
+    {/each}
+</svelte:head>
+
 <div class="root">
     <div class="bg"></div>
     <header style="background-image:url({banner})">
@@ -144,6 +150,7 @@
     import iconPixiv from '$lib/assets/pixiv.png';
     import pfp from '$lib/assets/pfp.png';
     import banner from '$lib/assets/banner.png';
+    const preloadImages = [iconItch, iconTwitter, iconYoutube, iconGithub, iconPixiv, pfp, banner];
     import { GetTL } from './TL';
 	import { locale } from '$lib/stores/localization';
 	import OpenInNewTab from '$lib/components/OpenInNewTab.svelte';
