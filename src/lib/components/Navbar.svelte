@@ -5,7 +5,9 @@
         margin-right:0px;
     }
 </style>
-<TabBar tabs={Object.keys(pages)} let:tab bind:active>
+<div bind:this={anchorBeforeNav}/>
+<TabBar tabs={Object.keys(pages)} let:tab bind:active style="
+    position: sticky; top: 0; z-index: 4; background-color:rgb(116, 163, 151);">
     <Wrapper>
         <Tab
         {tab}
@@ -39,8 +41,9 @@
     import TabBar from '@smui/tab-bar';
     import { page } from '$app/stores';
     import Tooltip, {Wrapper} from '@smui/tooltip';
-	import { onMount } from "svelte";
+	import { onMount, afterUpdate } from "svelte";
     import MediaQuery from 'svelte-media-queries';
+	import { afterNavigate, disableScrollHandling } from '$app/navigation';
     
     export let pages : NavOptions;
     const pageKeys = Object.keys(pages);
@@ -57,5 +60,11 @@
             active = currentTabList.length <= 0 ? pageKeys[0] : currentTabList[0];
         }
 
+    });
+    let anchorBeforeNav : HTMLDivElement;
+    
+    afterNavigate(() => {
+        disableScrollHandling();
+        anchorBeforeNav.scrollIntoView({behavior: "smooth"});
     });
 </script>
