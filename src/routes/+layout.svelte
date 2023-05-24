@@ -131,10 +131,13 @@
         <br>
     </div>
     <footer>
-        <div style="position:relative;top:2em;text-align:center;">
-            ChocolaMint・2023
-            <br>
-            <OpenInNewTab href="https://github.com/chocola-mint/chocola-mint.github.io" style="color:rgb(116, 155, 155)">Source Code</OpenInNewTab>
+        <div style="position:relative;top:2em;align-items:center;display:flex;flex-direction:column;gap=10px">
+            <div>ChocolaMint・2023</div>
+            <div style="margin-top:0.5em">
+                <OpenInNewTab href="https://github.com/chocola-mint/chocola-mint.github.io" style="color:rgb(116, 155, 155)">Source Code</OpenInNewTab>
+            </div>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <div style="margin-top:0.5em"><a href="#" style="color:rgb(116, 155, 155)">Back to Top</a></div>
         </div>
     </footer>
 </div>
