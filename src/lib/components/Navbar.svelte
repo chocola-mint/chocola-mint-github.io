@@ -49,9 +49,8 @@
     const pageKeys = Object.keys(pages);
     const currentTabList = pageKeys.filter(x => pages[x].route === $page.params.slug);
     $: active = currentTabList.length <= 0 ? pageKeys[0] : currentTabList[0];
-
+    let isFirstNavigate = true;
     onMount(() => {
-    
         const pageKeys = Object.keys(pages);
         const slugs = window.location.href.match(/[^\/]+/g);
         if(slugs && slugs.length > 2)
@@ -64,7 +63,10 @@
     let anchorBeforeNav : HTMLDivElement;
     
     afterNavigate(() => {
-        disableScrollHandling();
-        anchorBeforeNav.scrollIntoView({behavior: "smooth"});
+        if(!isFirstNavigate){
+            disableScrollHandling();
+            anchorBeforeNav.scrollIntoView({behavior: "smooth"});
+        }
+        isFirstNavigate = false;
     });
 </script>
