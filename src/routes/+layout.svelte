@@ -80,7 +80,7 @@
     {/each}
 </svelte:head>
 
-<div class="root">
+<div class="root" id="top">
     <div class="bg"></div>
     <header style="background-image:url({banner})">
         <div style="height:7.5vh"/>
@@ -137,7 +137,7 @@
                 <OpenInNewTab href="https://github.com/chocola-mint/chocola-mint.github.io" style="color:rgb(116, 155, 155)">Source Code</OpenInNewTab>
             </div>
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <div style="margin-top:0.5em"><a href="#" style="color:rgb(116, 155, 155)">Back to Top</a></div>
+            <div style="margin-top:0.5em"><a href="#top" style="color:rgb(116, 155, 155)">Back to Top</a></div>
         </div>
     </footer>
 </div>

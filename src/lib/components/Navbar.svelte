@@ -43,7 +43,7 @@
     import Tooltip, {Wrapper} from '@smui/tooltip';
 	import { onMount, afterUpdate } from "svelte";
     import MediaQuery from 'svelte-media-queries';
-	import { afterNavigate, disableScrollHandling } from '$app/navigation';
+	import { afterNavigate, beforeNavigate, disableScrollHandling } from '$app/navigation';
     
     export let pages : NavOptions;
     const pageKeys = Object.keys(pages);
@@ -61,12 +61,16 @@
 
     });
     let anchorBeforeNav : HTMLDivElement;
-    
+    let scrollY : number;
+    beforeNavigate(() => {
+        scrollY = window.scrollY;
+    });
     afterNavigate(() => {
-        if(!isFirstNavigate){
-            disableScrollHandling();
-            anchorBeforeNav.scrollIntoView({behavior: "smooth"});
-        }
-        isFirstNavigate = false;
+        window.scrollTo(0, scrollY);
+        // if(!isFirstNavigate){
+        //     disableScrollHandling();
+        //     anchorBeforeNav.scrollIntoView({behavior: "smooth"});
+        // }
+        // isFirstNavigate = false;
     });
 </script>
