@@ -15,11 +15,40 @@
 
 <Paper>
     <Content>
-        For a full list, check out my <OpenInNewTab href="https://chocola-mint.itch.io">Itch</OpenInNewTab> page.
+        For a full list, check out my <OpenInNewTab href="https://chocola-mint.itch.io">Itch</OpenInNewTab> and <OpenInNewTab href="https://unityroom.com/users/2nv9fbrpqc5ljgmitoy6">unityroom</OpenInNewTab> page.
     </Content>
 </Paper>
 <br>
 <div class="list">
+    <WorkItem 
+    src="https://object-storage.tyo1.conoha.io/v1/nc_df3bdbc45bc04950b558834f5728517a/unityroom_production/icon/54562/icon_20230924_204718.gif"
+    title="Hakase VS Kaiju (2023 Sep)"
+    projectPage="https://unityroom.com/games/hakase-vs-kaiju">
+    Submission to <OpenInNewTab href="https://unityroom.com/unity1weeks/60">unity1week Game Jam お題「1ボタン」</OpenInNewTab>.
+    <br><br>
+    A hyper-casual game where you play as a tiny inventor "Hakase-chan", who has to keep coming up new weapons to keep the <i>Kaiju</i> from taking over her toy island.
+    <br>
+    I worked with creators from the English-speaking Touhou fan community for this game. I was the designer and programmer.
+    <br>
+    The game placed 8th overall, and managed to get 1st in the Fun category, out of nearly 400 entries. (Results at the time of ranking announcements)
+    <br><br>
+    See also: <OpenInNewTab href="https://www.youtube.com/watch?v=QyDKkcH-DGg">Promotion Video</OpenInNewTab>
+    </WorkItem>
+    <WorkItem 
+    src="https://object-storage.tyo1.conoha.io/v1/nc_df3bdbc45bc04950b558834f5728517a/unityroom_production/icon/48006/icon_20230627_002946.gif"
+    title="Amebrella (2023 Jun)"
+    projectPage="https://unityroom.com/games/amebrella">
+    Submission to <OpenInNewTab href="https://unityroom.com/unity1weeks/59">unity1week Game Jam お題「ふる」</OpenInNewTab>.
+    <br><br>
+    An action platformer where you play as a robot girl with an umbrella, fighting against a gigantic titan that controls the weather.
+    It featured textless tutorials and a very cinematic boss fight.
+    <br>
+    This is a collaboration between me and Japanese creators (a 2D artist and a composer) whom I met through the <i>unity1week TeamUp!!</i> program. I was the programmer here.
+    <br>
+    It placed 14th on average out of nearly 400 entries, and was a very fun experience for me overall.
+    <br><br>
+    See also: <OpenInNewTab href="https://www.youtube.com/watch?v=_EJ0NGZZH1Q">Promotion Video</OpenInNewTab>
+    </WorkItem>
     <WorkItem 
     src="https://img.itch.zone/aW1nLzExMTc0Nzk2LnBuZw==/315x250%23c/MdUvSy.png"
     title="Touhou Ice Hockey Festival (2023 Feb)"

@@ -15,7 +15,7 @@
             <br><br>
             Currently, my game engine of choice is the Unity game engine, though I'm always open to trying other options.
             <br><br>
-            For a more technical introduction to my technical abilities, check out my <OpenInNewTab href="https://github.com/chocola-mint">GitHub</OpenInNewTab> profile.
+            If you are curious about my technical abilities, check out my <OpenInNewTab href="https://github.com/chocola-mint">GitHub</OpenInNewTab> profile instead.
         </Content>
     </Paper>
     <br>
@@ -47,9 +47,11 @@
         <Title>Awards</Title>
         <Content>
             <ul>
+                <li><OpenInNewTab href="https://unityroom.com/games/shijiquest">unity1week Game Jam お題「つたえる」</OpenInNewTab> - 3rd Place in Innovation.</li>
+                <li><OpenInNewTab href="https://unityroom.com/games/amebrella">unity1week Game Jam お題「ふる」</OpenInNewTab> - 14th Place Overall, 7th in Graphics, 6th in Atmosphere.</li>
+                <li><OpenInNewTab href="https://unityroom.com/games/hakase-vs-kaiju">unity1week Game Jam お題「1ボタン」</OpenInNewTab> - 8th Place Overall, 1st Place in Fun.</li>
                 <li><OpenInNewTab href="https://itch.io/jam/touhou-jam-10/rate/1897690">Touhou Fan Game Jam 10</OpenInNewTab> - 1st Place in Graphics & Sound, 2nd Place in Use of Theme, 3rd Place in Story, Writing & Concept.</li>
                 <li><OpenInNewTab href="https://chocola-mint.itch.io/lucid-dive">2022 Innovation Game Design competition (創意遊戲設計大賽)</OpenInNewTab> - 2nd Place in Graphics, 1st Place in Sound Design.</li>
-                <li><OpenInNewTab href="https://unityroom.com/games/shijiquest">unity1week Game Jam お題「つたえる」</OpenInNewTab> - 3rd Place in Innovation.</li>
             </ul>
         </Content>
     </Paper>
