@@ -18,6 +18,30 @@
 	import Paper, { Content, Title } from "@smui/paper";
 
 </script>
+
+<Paper>
+    <Title>Welcome to HAKASE-chan's World!</Title>
+    <Content>
+        📅 Date: 10/14/2023
+        <br>
+        🌏 Location: unity1week online 共有会 #13 (YouTube Live / Zoom)
+        <br>
+        💬 Language: Japanese
+        <br><br>
+        In this presentation, I gave a detailed explanation of the game design behind <i>HAKASE vs KAIJU</i>, my award-winning entry to the unity1week Game Jam.
+        A key point of the presentation is explaining <i>why</i> things are designed that way, like how I planned 4 timing-based commands and 1 button-mashing command, 
+        so players won't get bored of concentrating all the time to clear the timing-based commands.
+        <br><br>
+        <Button variant="raised" href="https://www.youtube.com/live/COFWY3BrDEw?&t=4257" target="_blank" rel="noopener noreferrer">
+            <Label>Video Archive</Label>
+        </Button>
+    </Content>
+    <br>
+    <div class="content">
+        <iframe title="HAKASE vs KAIJU" src="https://docs.google.com/presentation/d/e/2PACX-1vSArlZvuZBec-53MzVsxknab9WtXpqmLH3YzQAqJqdi4sNXePlIyBGEQoPE31vwN-CA5pVPlcvvbXx0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allow="fullscreen"></iframe>
+    </div>
+</Paper>
+<br>
 <Paper>
     <Title>Game-Jamming my way into becoming a Game Creator</Title>
     <Content>
