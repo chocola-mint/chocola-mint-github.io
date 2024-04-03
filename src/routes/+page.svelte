@@ -13,7 +13,7 @@
             <br><br>
             I'm also a generalist who's trying to branch into other creative fields, such as <OpenInNewTab href="https://www.pixiv.net/users/35917669">digital illustrations</OpenInNewTab>. Recently, I'm also self-studying 3DCG.
             <br><br>
-            Currently, my game engine of choice is the Unity game engine, though I'm always open to trying other options.
+            Currently, my game engines of choice are Unity and Godot, though I'm always open to trying other options.
             <br><br>
             If you are curious about my technical abilities, check out my <OpenInNewTab href="https://github.com/chocola-mint">GitHub</OpenInNewTab> profile instead.
         </Content>
@@ -37,6 +37,12 @@
                         <li>Given more than 10 Unity-related introductory lectures to club members.</li>
                         <li>Invited the CEO of Cresprit to a public talk event at NTHU.</li>
                         <li>Regularly provided game development-related resources to club members within the club Discord server.</li>
+                    </ul>
+                </li>
+                <li>Programmer (contractor) for the Godot-powered indie game <OpenInNewTab href="https://store.steampowered.com/app/2081230/Parry_Nightmare/">Parry Nightmare (PC)</OpenInNewTab>. (2024 Spring)
+                    <ul>
+                        <li>Worked on CPU optimization.</li>
+                        <li>Also provided additional programming support.</li>
                     </ul>
                 </li>
             </ul>
