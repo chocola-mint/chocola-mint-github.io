@@ -15,7 +15,7 @@
 
 <Paper>
     <Content>
-        For a full list, check out my <OpenInNewTab href="https://chocola-mint.itch.io">Itch</OpenInNewTab> and <OpenInNewTab href="https://unityroom.com/users/2nv9fbrpqc5ljgmitoy6">unityroom</OpenInNewTab> page.
+        For a full list, check out my <OpenInNewTab href="https://chocola-mint.itch.io">Itch</OpenInNewTab> and <OpenInNewTab href="https://unityroom.com/users/mintchocolamint">unityroom</OpenInNewTab> page.
     </Content>
 </Paper>
 <br>
